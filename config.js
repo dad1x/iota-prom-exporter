@@ -3,7 +3,7 @@ global.rootPath = path.normalize(path.join(__dirname, '..', '..'))
 
 module.exports = {
     // url and port of your IRI node
-    iota_node_url: process.env.iota_node_url || 'http://192.168.2.91:14700',       //regular port 14265
+    iota_node_url: process.env.iota_node_url || 'http://192.168.2.91:14444',       //regular port 14265 "iota"
 
     // address and port where the exporter will be bound
     bind_address: process.env.bind_address || '127.0.0.1',
